@@ -1,0 +1,42 @@
+:root {
+  --orange: #FF9F0A;
+  --dark-grey: #333333;
+  --light-grey: #A5A5A5;
+}
+
+.wrapper {
+  background-color: black;
+  border-radius: .3em;
+  position: relative;
+}
+
+button {
+  width: 3em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  margin: .3em;
+  border-radius: 2em;
+  cursor: pointer;
+  background-color: var(--dark-grey);
+  color: white;
+}
+
+.orange {
+  background-color: var(--orange);
+}
+.lightGrey {
+  background-color: var(--light-grey);
+  color: black;
+}
+
+
+#large {
+  width: 45%;
+}
+
+.last {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
